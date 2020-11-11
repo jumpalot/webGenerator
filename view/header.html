@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    input {
+      border-radius: 5px;
+      width: 230px;
+      height: 2rem;
+    }
+
+    fieldset {
+      text-align: center;
+      margin: auto;
+      border-radius: 1em 1em 1em 1em;
+      width: 20em;
+    }
+  </style>
+  <script>
+    function passSeRepite() {
+      var a = document.getElementById("ps").value == document.getElementById("rps").value;
+      if (!a) alert('Las contraseñas deben coincidir');
+      return a;
+    }
+  </script>
+  <title>webgenereator</title>
+</head>
+
+<body>
+  <fieldset>
